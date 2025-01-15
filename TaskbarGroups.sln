@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "editorClient", "main\editorClient.csproj", "{B6E63AE7-4433-44EC-BCDE-031CD779E8CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadDogs.TaskbarGroups.Editor", "MadDogs.TaskbarGroups.Editor\MadDogs.TaskbarGroups.Editor.csproj", "{B6E63AE7-4433-44EC-BCDE-031CD779E8CC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{880E67DC-610D-4661-878B-14C0A76223B5} = {880E67DC-610D-4661-878B-14C0A76223B5}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backgroundClient", "backgroundClient\backgroundClient.csproj", "{880E67DC-610D-4661-878B-14C0A76223B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadDogs.TaskbarGroups.Background", "MadDogs.TaskbarGroups.Background\MadDogs.TaskbarGroups.Background.csproj", "{880E67DC-610D-4661-878B-14C0A76223B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadDogs.TaskbarGroups.Common", "MadDogs.TaskbarGroups.Common\MadDogs.TaskbarGroups.Common.csproj", "{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,14 @@ Global
 		{880E67DC-610D-4661-878B-14C0A76223B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{880E67DC-610D-4661-878B-14C0A76223B5}.Release|x86.ActiveCfg = Release|Any CPU
 		{880E67DC-610D-4661-878B-14C0A76223B5}.Release|x86.Build.0 = Release|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FD4EA8E-2868-45C6-B039-BDF6DB114C8C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
